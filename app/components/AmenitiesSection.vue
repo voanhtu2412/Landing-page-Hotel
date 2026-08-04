@@ -232,7 +232,8 @@ makeStaggerObserver(nearbyGridRef, placeVisible, 50)
 
   &__header {
     text-align: left;
-    
+    min-width: 0;
+
     @media (min-width: $bp-lg) {
       position: sticky;
       top: 100px;
@@ -259,9 +260,18 @@ makeStaggerObserver(nearbyGridRef, placeVisible, 50)
     display: grid;
     grid-template-columns: 1fr;
     gap: $spacing-md;
+    min-width: 0;
 
     @media (min-width: $bp-md) {
       grid-template-columns: repeat(2, 1fr);
+    }
+
+    // Stagger-reveal wrapper divs are the actual grid items — without
+    // min-width: 0 here, the nowrap place-name below forces the grid
+    // track (and everything sharing it, incl. the header) wider than
+    // the viewport.
+    > * {
+      min-width: 0;
     }
   }
 
@@ -275,6 +285,7 @@ makeStaggerObserver(nearbyGridRef, placeVisible, 50)
     box-shadow: $shadow-sm;
     transition: $transition-base;
     height: 100%;
+    min-width: 0;
 
     &:hover {
       box-shadow: $shadow-md;
