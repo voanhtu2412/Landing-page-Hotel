@@ -1,0 +1,258 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "about": "Giới thiệu",
+    "rooms": "Hạng phòng",
+    "amenities": "Tiện ích",
+    "contact": "Liên hệ",
+    "book_now": "Đặt phòng ngay"
+  },
+  "hero": {
+    "label": "Khách Sạn Giá Rẻ",
+    "saigon": "Tân Phú",
+    "title_peace": "Giá rẻ - Sạch sẽ",
+    "title_city": "ngay trung tâm",
+    "subtitle_1": "Khách sạn bình dân với không gian sạch đẹp, đầy đủ tiện lợi.",
+    "subtitle_2": "Sự lựa chọn hoàn hảo và tiết kiệm nhất cho chuyến đi của bạn.",
+    "cta_rooms": "Xem hạng phòng",
+    "cta_zalo": "Chat Zalo ngay",
+    "scroll": "Khám phá",
+    "stats": {
+      "rating": "Đánh giá trung bình",
+      "guests": "Lượt khách hài lòng",
+      "support": "Hỗ trợ lễ tân 24h",
+      "food": "Đến phố ẩm thực"
+    }
+  },
+  "about": {
+    "label": "Về chúng tôi",
+    "title": "Câu chuyện của Hotel Amy",
+    "badge_year": "2019",
+    "badge_text": "Thành lập",
+    "cta_rooms": "Xem hạng phòng ngay",
+    "para_1": "Hotel Amy là mô hình kinh doanh lưu trú hộ gia đình, mang đến sự thân thiện, bình dân và gần gũi cho mọi khách hàng. Dù bạn cần một chỗ ngả lưng nghỉ ngơi hay lưu trú qua đêm, chúng tôi luôn có mức giá phù hợp nhất.",
+    "para_2": "Chỉ từ 230k/ngày, bạn sẽ có một căn phòng sạch sẽ, wifi vù vù, dọn phòng cẩn thận và dịch vụ chân thành như người nhà.",
+    "highlights": [
+      {
+        "icon": "fi fi-rr-star",
+        "value": "4.9",
+        "suffix": "/5",
+        "label": "Đánh giá trung bình"
+      },
+      {
+        "icon": "fi fi-rr-building",
+        "value": "1200",
+        "suffix": "+",
+        "label": "Lượt khách đã ở"
+      },
+      {
+        "icon": "fi fi-rr-heart",
+        "value": "98",
+        "suffix": "%",
+        "label": "Khách quay lại lần 2"
+      }
+    ]
+  },
+  "rooms": {
+    "label": "Hạng phòng",
+    "title": "Không gian nghỉ ngơi của bạn",
+    "subtitle": "Từ phòng thường ấm cúng đến phòng vip độc đáo — Hotel Amy có đủ lựa chọn phù hợp với mọi nhu cầu và ngân sách.",
+    "cta_note": "💬 Không chắc chọn phòng nào? Nhắn tin cho chúng tôi để được tư vấn miễn phí!",
+    "cta_btn": "Nhắn Zalo tư vấn ngay",
+    "list": [
+      {
+        "id": 1,
+        "slug": "don",
+        "name": "Phòng Đơn",
+        "description": "Phòng 1 giường thoải mái, sạch sẽ. Thích hợp cho cá nhân lưu trú ngắn hạn với mức giá phải chăng.",
+        "image": "/images/room-standard.jpg",
+        "priceFrom": 230,
+        "highlight": "Tiết kiệm nhất",
+        "amenities": [
+          {
+            "icon": "fi fi-rr-bed",
+            "label": "1 Giường đôi"
+          },
+          {
+            "icon": "fi fi-rr-shower",
+            "label": "NVS Riêng"
+          },
+          {
+            "icon": "fi fi-rr-wifi",
+            "label": "Free WiFi"
+          },
+          {
+            "icon": "fi fi-rr-bottle",
+            "label": "Nước suối"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "slug": "doi",
+        "name": "Phòng Đôi",
+        "description": "Phòng 2 giường rộng rãi, thích hợp cho nhóm hoặc gia đình nhỏ. Không gian thoáng đãng, yên tĩnh, đầy đủ tiện nghi.",
+        "image": "/images/room-deluxe.jpg",
+        "priceFrom": 400,
+        "highlight": "Phổ biến nhất",
+        "amenities": [
+          {
+            "icon": "fi fi-rr-bed",
+            "label": "2 Giường đôi"
+          },
+          {
+            "icon": "fi fi-rr-shower",
+            "label": "NVS Riêng"
+          },
+          {
+            "icon": "fi fi-rr-wifi",
+            "label": "Free WiFi"
+          },
+          {
+            "icon": "fi fi-rr-bottle",
+            "label": "Nước suối"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "slug": "vip",
+        "name": "Phòng VIP",
+        "description": "Phòng rộng nhất, trang bị đầy đủ tiện nghi, view đẹp, thoáng mát. Mức giá cực kỳ phải chăng cho trải nghiệm lưu trú tốt nhất.",
+        "image": "/images/room-suite.jpg",
+        "priceFrom": 400,
+        "highlight": "Đầy đủ tiện nghi",
+        "amenities": [
+          {
+            "icon": "fi fi-rr-bed",
+            "label": "Giường tròn"
+          },
+          {
+            "icon": "fi fi-rr-shower",
+            "label": "NVS Tiện nghi"
+          },
+          {
+            "icon": "fi fi-rr-wifi",
+            "label": "Free WiFi"
+          },
+          {
+            "icon": "fi fi-rr-bottle",
+            "label": "Nước suối"
+          }
+        ]
+      }
+    ]
+  },
+  "amenities": {
+    "label": "Tiện ích",
+    "title": "Tất cả những gì bạn cần",
+    "subtitle": "Hotel Amy cung cấp đầy đủ tiện nghi cần thiết trong một không gian ấm cúng, sạch sẽ với mức giá cực kỳ bình dân.",
+    "list": [
+      {
+        "id": 1,
+        "icon": "fi fi-rr-parking",
+        "title": "Bãi đỗ xe an toàn",
+        "description": "Camera 24/7, có chỗ cho xe máy & ô tô"
+      },
+      {
+        "id": 2,
+        "icon": "fi fi-rr-wifi",
+        "title": "Free WiFi tốc độ cao",
+        "description": "Phủ sóng toàn bộ phòng nghỉ và khuôn viên"
+      },
+      {
+        "id": 3,
+        "icon": "fi fi-rr-shower",
+        "title": "NVS Tiện Nghi",
+        "description": "Nhà vệ sinh sạch sẽ, riêng biệt từng phòng"
+      },
+      {
+        "id": 4,
+        "icon": "fi fi-rr-broom",
+        "title": "Dọn phòng sạch sẽ",
+        "description": "Phòng ốc được dọn dẹp thường xuyên, thay ga gối sạch"
+      },
+      {
+        "id": 5,
+        "icon": "fi fi-rr-shirt",
+        "title": "Dịch vụ giặt giũ",
+        "description": "Có hỗ trợ giặt sấy đồ cho khách lưu trú"
+      },
+      {
+        "id": 6,
+        "icon": "fi fi-rr-bottle",
+        "title": "Nước giải khát",
+        "description": "Phục vụ nước uống, nước ngọt các loại tại quầy"
+      }
+    ]
+  },
+  "nearby": {
+    "label": "Khám phá",
+    "title": "Từ Hotel Amy đi đâu cũng gần",
+    "subtitle": "Vị trí đắc địa giúp bạn tiết kiệm thời gian di chuyển đến các tiện ích và điểm vui chơi giải trí nổi bật nhất trong khu vực.",
+    "list": [
+      {
+        "id": 1,
+        "icon": "fi fi-rr-moon",
+        "name": "Chợ đêm Tân Bình",
+        "distance": "5 phút xe máy"
+      },
+      {
+        "id": 2,
+        "icon": "fi fi-rr-tree",
+        "name": "Công viên Hoàng Văn Thụ",
+        "distance": "10 phút xe máy"
+      },
+      {
+        "id": 3,
+        "icon": "fi fi-rr-plane",
+        "name": "Sân bay Tân Sơn Nhất",
+        "distance": "10 phút xe máy"
+      },
+      {
+        "id": 4,
+        "icon": "fi fi-rr-restaurant",
+        "name": "Phố ẩm thực Gò Dầu",
+        "distance": "2 phút đi bộ"
+      },
+      {
+        "id": 5,
+        "icon": "fi fi-rr-hospital",
+        "name": "Bệnh viện Tân Phú",
+        "distance": "8 phút xe máy"
+      },
+      {
+        "id": 6,
+        "icon": "fi fi-rr-shopping-cart",
+        "name": "Aeon Mall Tân Phú",
+        "distance": "5 phút đi xe"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Sẵn sàng cho kỳ nghỉ của bạn?",
+    "subtitle": "Liên hệ với chúng tôi ngay hôm nay để nhận ưu đãi tốt nhất cho chuyến đi của bạn.",
+    "btn_zalo": "Chat qua Zalo",
+    "btn_call": "Gọi Hotline",
+    "info": "Thông tin liên hệ",
+    "address": "Địa chỉ:",
+    "hotline": "Hotline:",
+    "email": "Email:",
+    "facebook": "Facebook:",
+    "working_hours": "Giờ hoạt động:",
+    "address_value": "50/5 Đường Gò Dầu, Phường Tân Sơn Nhì, Quận Tân Phú, TP. Hồ Chí Minh",
+    "openHours": "Check-in: 14:00 | Check-out: 12:00 | Lễ tân: 24/7",
+    "copyright": "Bản quyền thuộc về Hotel Amy."
+  },
+  "room_card": {
+    "price_from": "Từ",
+    "price_unit": "K / ngày",
+    "book_now": "Đặt phòng"
+  },
+  "widget": {
+    "zalo_aria": "Chat Zalo với Hotel Amy",
+    "zalo_tooltip": "Chat Zalo ngay!",
+    "phone_aria": "Gọi điện cho Hotel Amy",
+    "phone_tooltip": "Gọi ngay!"
+  }
+}

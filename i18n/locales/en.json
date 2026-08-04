@@ -1,0 +1,258 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "rooms": "Rooms",
+    "amenities": "Amenities",
+    "contact": "Contact",
+    "book_now": "Book Now"
+  },
+  "hero": {
+    "label": "Budget Hotel",
+    "saigon": "Tan Phu",
+    "title_peace": "Affordable - Clean",
+    "title_city": "in the city center",
+    "subtitle_1": "Budget hotel with clean spaces and full conveniences.",
+    "subtitle_2": "The perfect and most economical choice for your trip.",
+    "cta_rooms": "View Rooms",
+    "cta_zalo": "Chat Zalo",
+    "scroll": "Explore",
+    "stats": {
+      "rating": "Average Rating",
+      "guests": "Happy Guests",
+      "support": "24/7 Reception",
+      "food": "To Food Street"
+    }
+  },
+  "about": {
+    "label": "About Us",
+    "title": "The Story of Hotel Amy",
+    "badge_year": "2019",
+    "badge_text": "Established",
+    "cta_rooms": "View Rooms Now",
+    "para_1": "Hotel Amy is a family-run accommodation business, bringing a friendly, affordable, and welcoming vibe to all guests. Whether you need a place to rest or an overnight stay, we always offer the best prices.",
+    "para_2": "From only 230k/day, you'll get a clean room, fast wifi, careful housekeeping, and sincere service like family.",
+    "highlights": [
+      {
+        "icon": "fi fi-rr-star",
+        "value": "4.9",
+        "suffix": "/5",
+        "label": "Satisfaction Rating"
+      },
+      {
+        "icon": "fi fi-rr-building",
+        "value": "1200",
+        "suffix": "+",
+        "label": "Guests Served"
+      },
+      {
+        "icon": "fi fi-rr-heart",
+        "value": "98",
+        "suffix": "%",
+        "label": "Returning Guests"
+      }
+    ]
+  },
+  "rooms": {
+    "label": "Your Space",
+    "title": "Room Categories at Amy",
+    "subtitle": "All rooms are thoroughly cleaned and equipped with essential amenities.",
+    "cta_note": "💬 Not sure which room to choose? Message us for free consultation!",
+    "cta_btn": "Message Zalo now",
+    "list": [
+      {
+        "id": 1,
+        "slug": "don",
+        "name": "Standard Single",
+        "description": "Comfortable, clean single bed room. Suitable for short-term stays at an affordable price.",
+        "image": "/images/room-standard.jpg",
+        "priceFrom": 230,
+        "highlight": "Most Economical",
+        "amenities": [
+          {
+            "icon": "fi fi-rr-bed",
+            "label": "1 Double Bed"
+          },
+          {
+            "icon": "fi fi-rr-shower",
+            "label": "Private Bath"
+          },
+          {
+            "icon": "fi fi-rr-wifi",
+            "label": "Free WiFi"
+          },
+          {
+            "icon": "fi fi-rr-bottle",
+            "label": "Bottled Water"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "slug": "doi",
+        "name": "Deluxe Double",
+        "description": "Spacious twin bed room, suitable for groups or small families. Airy, quiet space with full amenities.",
+        "image": "/images/room-deluxe.jpg",
+        "priceFrom": 400,
+        "highlight": "Most Popular",
+        "amenities": [
+          {
+            "icon": "fi fi-rr-bed",
+            "label": "2 Double Beds"
+          },
+          {
+            "icon": "fi fi-rr-shower",
+            "label": "Private Bath"
+          },
+          {
+            "icon": "fi fi-rr-wifi",
+            "label": "Free WiFi"
+          },
+          {
+            "icon": "fi fi-rr-broom",
+            "label": "Housekeeping"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "slug": "vip",
+        "name": "VIP Suite",
+        "description": "The most spacious room, fully equipped, nice view, airy. Extremely affordable price for the best stay experience.",
+        "image": "/images/room-suite.jpg",
+        "priceFrom": 400,
+        "highlight": "Fully Equipped",
+        "amenities": [
+          {
+            "icon": "fi fi-rr-bed",
+            "label": "King Bed"
+          },
+          {
+            "icon": "fi fi-rr-shower",
+            "label": "Modern Bath"
+          },
+          {
+            "icon": "fi fi-rr-wifi",
+            "label": "Free WiFi"
+          },
+          {
+            "icon": "fi fi-rr-bottle",
+            "label": "Bottled Water"
+          }
+        ]
+      }
+    ]
+  },
+  "amenities": {
+    "label": "Amenities",
+    "title": "Everything you need",
+    "subtitle": "Hotel Amy provides all essential amenities in a cozy, clean space at extremely affordable prices.",
+    "list": [
+      {
+        "id": 1,
+        "icon": "fi fi-rr-parking",
+        "title": "Secure Parking",
+        "description": "24/7 CCTV, parking space for motorbikes & cars"
+      },
+      {
+        "id": 2,
+        "icon": "fi fi-rr-wifi",
+        "title": "High-Speed WiFi",
+        "description": "Coverage across all rooms and premises"
+      },
+      {
+        "id": 3,
+        "icon": "fi fi-rr-shower",
+        "title": "Modern Bathroom",
+        "description": "Clean, private bathrooms for each room"
+      },
+      {
+        "id": 4,
+        "icon": "fi fi-rr-broom",
+        "title": "Clean Housekeeping",
+        "description": "Rooms are regularly cleaned, fresh linens provided"
+      },
+      {
+        "id": 5,
+        "icon": "fi fi-rr-shirt",
+        "title": "Laundry Service",
+        "description": "Laundry support available for guests"
+      },
+      {
+        "id": 6,
+        "icon": "fi fi-rr-bottle",
+        "title": "Refreshments",
+        "description": "Water and soft drinks available at the counter"
+      }
+    ]
+  },
+  "nearby": {
+    "label": "Explore",
+    "title": "Close to everywhere from Hotel Amy",
+    "subtitle": "Prime location saves you travel time to top amenities and entertainment spots in the area.",
+    "list": [
+      {
+        "id": 1,
+        "icon": "fi fi-rr-moon",
+        "name": "Tan Binh Night Market",
+        "distance": "5 mins by bike"
+      },
+      {
+        "id": 2,
+        "icon": "fi fi-rr-tree",
+        "name": "Hoang Van Thu Park",
+        "distance": "10 mins by bike"
+      },
+      {
+        "id": 3,
+        "icon": "fi fi-rr-plane",
+        "name": "Tan Son Nhat Airport",
+        "distance": "10 mins by bike"
+      },
+      {
+        "id": 4,
+        "icon": "fi fi-rr-restaurant",
+        "name": "Go Dau Food Street",
+        "distance": "2 mins walk"
+      },
+      {
+        "id": 5,
+        "icon": "fi fi-rr-hospital",
+        "name": "Tan Phu Hospital",
+        "distance": "8 mins by bike"
+      },
+      {
+        "id": 6,
+        "icon": "fi fi-rr-shopping-cart",
+        "name": "Aeon Mall Tan Phu",
+        "distance": "5 mins by car"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Ready for your stay?",
+    "subtitle": "Contact us today to get the best deals for your trip.",
+    "btn_zalo": "Chat via Zalo",
+    "btn_call": "Call Hotline",
+    "info": "Contact Information",
+    "address": "Address:",
+    "hotline": "Hotline:",
+    "email": "Email:",
+    "facebook": "Facebook:",
+    "working_hours": "Working Hours:",
+    "address_value": "50/5 Go Dau Street, Tan Son Nhi Ward, Tan Phu District, Ho Chi Minh City",
+    "openHours": "Check-in: 14:00 | Check-out: 12:00 | Reception: 24/7",
+    "copyright": "Copyright by Hotel Amy."
+  },
+  "room_card": {
+    "price_from": "From",
+    "price_unit": "K / day",
+    "book_now": "Book via Zalo"
+  },
+  "widget": {
+    "zalo_aria": "Chat Zalo with Hotel Amy",
+    "zalo_tooltip": "Chat Zalo now!",
+    "phone_aria": "Call Hotel Amy",
+    "phone_tooltip": "Call now!"
+  }
+}
