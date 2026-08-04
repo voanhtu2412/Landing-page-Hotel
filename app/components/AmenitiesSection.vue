@@ -331,9 +331,7 @@ makeStaggerObserver(nearbyGridRef, placeVisible, 50)
     font-weight: $font-weight-bold;
     font-size: $font-size-base;
     color: $color-text;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    line-height: 1.3;
   }
 
   &__place-distance {
