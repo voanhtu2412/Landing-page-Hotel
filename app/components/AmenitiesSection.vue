@@ -22,7 +22,7 @@
           :key="amenity.id"
           class="reveal-up"
           :class="{ 'reveal-up--visible': amenityVisible[index] }"
-          :style="{ transitionDelay: `${index * 80}ms` }"
+          :style="{ transitionDelay: `${index * 30}ms` }"
           :data-stagger-index="index"
         >
           <div class="amenities__item">
@@ -57,7 +57,7 @@
             :key="place.id"
             class="reveal-up"
             :class="{ 'reveal-up--visible': placeVisible[index] }"
-            :style="{ transitionDelay: `${index * 80}ms` }"
+            :style="{ transitionDelay: `${index * 30}ms` }"
             :data-stagger-index="index"
           >
             <div class="nearby__place">
@@ -122,15 +122,15 @@ function makeStaggerObserver(
   })
 }
 
-makeStaggerObserver(amenitiesGridRef, amenityVisible, 40)
-makeStaggerObserver(nearbyGridRef, placeVisible, 50)
+makeStaggerObserver(amenitiesGridRef, amenityVisible, 20)
+makeStaggerObserver(nearbyGridRef, placeVisible, 25)
 </script>
 
 <style lang="scss" scoped>
 .reveal-up {
   opacity: 0;
   transform: translateY(28px);
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition: opacity 0.2s ease, transform 0.2s ease;
 
   &--visible {
     opacity: 1;

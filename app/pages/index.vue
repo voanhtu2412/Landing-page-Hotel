@@ -12,7 +12,7 @@
 
 <script setup lang="ts">
 useHead({
-  title: 'Hotel Amy – Chốn Bình Yên Giữa Lòng Sài Gòn',
+  title: 'Hotel Amy – Hotel Tân Phú giá rẻ',
   meta: [
     {
       name: 'description',

@@ -22,7 +22,7 @@
           :key="room.id"
           class="rooms__card-wrap reveal-up"
           :class="{ 'reveal-up--visible': cardVisible[index] }"
-          :style="{ transitionDelay: `${index * 130}ms` }"
+          :style="{ transitionDelay: `${index * 50}ms` }"
           :data-stagger-index="index"
         >
           <RoomCard :room="room" :index="index" />
@@ -74,7 +74,7 @@ onMounted(() => {
         if (entry.isIntersecting) {
           const i = Number((entry.target as HTMLElement).dataset.staggerIndex)
           if (!isNaN(i)) {
-            setTimeout(() => { cardVisible.value[i] = true }, i * 60)
+            setTimeout(() => { cardVisible.value[i] = true }, i * 40)
           }
         }
       })
@@ -90,7 +90,7 @@ onMounted(() => {
 .reveal-up {
   opacity: 0;
   transform: translateY(32px);
-  transition: opacity 0.4s ease, transform 0.4s ease;
+  transition: opacity 0.25s ease, transform 0.25s ease;
 
   &--visible {
     opacity: 1;

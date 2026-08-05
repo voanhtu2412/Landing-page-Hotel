@@ -14,11 +14,11 @@
             class="about__img"
             loading="lazy"
           />
-          <!-- Floating badge -->
-          <div class="about__badge">
-            <span class="about__badge-year">{{ $t('about.badge_year') }}</span>
-            <span class="about__badge-text">{{ $t('about.badge_text') }}</span>
-          </div>
+        </div>
+        <!-- Floating badge -->
+        <div class="about__badge">
+          <span class="about__badge-year">{{ $t('about.badge_year') }}</span>
+          <span class="about__badge-text">{{ $t('about.badge_text') }}</span>
         </div>
         <div class="about__deco" />
       </div>
@@ -49,7 +49,7 @@
             :key="item.label"
             class="about__highlight reveal-up"
             :class="{ 'reveal-up--visible': highlightsVisible }"
-            :style="{ transitionDelay: `${index * 120}ms` }"
+            :style="{ transitionDelay: `${index * 40}ms` }"
           >
             <i :class="['about__highlight-icon', item.icon]"></i>
             <span class="about__highlight-value">
@@ -63,7 +63,7 @@
           href="#rooms"
           class="btn btn--primary about__btn reveal-up"
           :class="{ 'reveal-up--visible': highlightsVisible }"
-          style="transition-delay: 360ms"
+          style="transition-delay: 150ms"
         >
           <i class="fi fi-rr-bed"></i> {{ $t('about.cta_rooms') }}
         </a>
@@ -81,9 +81,9 @@ const { el: textRef,  isVisible: textVisible }        = useScrollReveal({ thresh
 const { el: highlightsRef, isVisible: highlightsVisible } = useScrollReveal({ threshold: 0.3 })
 
 // ── Counter animations ───────────────────────────────
-const ratingCounter  = useCountUp(4.9,  { duration: 1800, decimals: 1 })
-const guestsCounter  = useCountUp(1200, { duration: 2200, separator: '.' })
-const returnCounter  = useCountUp(98,   { duration: 1600 })
+const ratingCounter  = useCountUp(4.9,  { duration: 1000, decimals: 1 })
+const guestsCounter  = useCountUp(1200, { duration: 1200, separator: '.' })
+const returnCounter  = useCountUp(98,   { duration: 900 })
 
 const highlightCounters = computed(() => [
   { icon: 'fi fi-rr-star', suffix: '/5',  label: t('about.highlights[0].label'), counter: ratingCounter  },
@@ -95,7 +95,7 @@ const highlightCounters = computed(() => [
 watch(highlightsVisible, (visible) => {
   if (visible) {
     highlightCounters.value.forEach((item, i) => {
-      setTimeout(() => item.counter.start(), i * 200)
+      setTimeout(() => item.counter.start(), i * 80)
     })
   }
 })
@@ -106,7 +106,7 @@ watch(highlightsVisible, (visible) => {
 .reveal-left {
   opacity: 0;
   transform: translateX(-48px);
-  transition: opacity 0.4s ease, transform 0.4s ease;
+  transition: opacity 0.25s ease, transform 0.25s ease;
 
   &--visible {
     opacity: 1;
@@ -117,7 +117,7 @@ watch(highlightsVisible, (visible) => {
 .reveal-right {
   opacity: 0;
   transform: translateX(48px);
-  transition: opacity 0.4s ease 0.1s, transform 0.4s ease 0.1s;
+  transition: opacity 0.25s ease 0.05s, transform 0.25s ease 0.05s;
 
   &--visible {
     opacity: 1;
@@ -128,7 +128,7 @@ watch(highlightsVisible, (visible) => {
 .reveal-up {
   opacity: 0;
   transform: translateY(28px);
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition: opacity 0.2s ease, transform 0.2s ease;
 
   &--visible {
     opacity: 1;
